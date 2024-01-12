@@ -15,6 +15,12 @@ const person = {
   surname: 'Arthur', //tipo string
 };
 
+function escolhaCor(cor: 'Vermelho' | 'Amarelo' | 'Azul'): string {
+  return cor;
+}
+
+console.log(escolhaCor('Vermelho'));
+
 //person.name = 'arthur'; não consigo mudar não é tipo "Gabriel"
 
 //Module mode
